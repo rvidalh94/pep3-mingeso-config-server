@@ -19,7 +19,7 @@ spring:
           uri: lb://cnp-service
           predicates:
             - Path=/cnp/**
-        - id: prodcuto-service
+        - id: producto-service
           uri: lb://producto-service
           predicates:
             - Path=/product/**
